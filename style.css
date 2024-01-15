@@ -1,5 +1,5 @@
 /*
-*/
+
 div {
 	border: 1px dashed red;
 	min-height: 10px;
@@ -13,9 +13,8 @@ div * *  {
 	border: 1px dashed green;
 	min-height: 10px;
 }
-
-/*
 */
+
 
 body {
     margin: 0px;
