@@ -1,0 +1,71 @@
+/*
+*/
+div {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+div * {
+	border: 1px dashed blue;
+	min-height: 10px;
+}
+div * *  {
+	border: 1px dashed green;
+	min-height: 10px;
+}
+
+/*
+*/
+
+body {
+    margin: 0px;
+    display: block;
+}
+
+#header {
+    background: white;
+    display: flex; 
+    width: 100%;  
+    justify-content: center;
+}
+
+#feed {
+    background:  lightgrey;
+    
+    display:inline-block;
+    text-align:center;
+}
+
+.post {
+    display: inline-block;
+    background: white;
+    margin: 50px;
+}
+
+.head {
+    height: 60px;
+    padding: 10px;
+    max-height: 400px;
+    max-width: 600px;
+}
+
+.right {
+    float: inline-end;
+    color: gray;
+}
+
+.left {
+    float: left;
+}
+
+.foto img{
+    max-height: 400px;
+    max-width: 600px;
+}
+
+.pie {
+    max-height: 400px;
+    max-width: 530px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
