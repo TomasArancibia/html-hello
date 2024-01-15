@@ -38,14 +38,15 @@ body {
 .post {
     display: inline-block;
     background: white;
-    margin: 50px;
+    margin: 100px;
+    margin-bottom: 10px;
 }
 
 .head {
     height: 60px;
     padding: 10px;
     max-height: 400px;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .right {
@@ -59,12 +60,12 @@ body {
 
 .foto img{
     max-height: 400px;
-    max-width: 600px;
+    max-width: 530px;
 }
 
 .pie {
     max-height: 400px;
-    max-width: 530px;
+    max-width: 480px;
     padding-left: 20px;
     padding-right: 30px;
 }
